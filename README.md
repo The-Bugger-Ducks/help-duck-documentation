@@ -29,8 +29,7 @@ Para extrair e entender os desejos do cliente, foi construído um protótipo ini
 
 <div align="center">
 
-> em breve
-
+![demo](./demo.gif)
 </div>
 
 Este protótipo valida a entrega dos requisitos confirmados para a sprint, onde suas descrições podem ser checadas a seguir:
@@ -52,16 +51,13 @@ Este requisito se trata do cadastro e login de usuários, respeitando a regra de
 <span id="metricas">
     
 ## :chart_with_upwards_trend: Métricas do time
-Em prol de um melhor aproveitamento das habilidades de cada integrante, o time foi separado em duas frentes: frontend e backend, onde, na primeira sprint, o time de frontend ficou responsável pela confecção do protótipo, projeto frontend e integração de funcionalidades enquanto o time de backend ficou responsável pela criaão dos microsserviços necessários e pesquisas sobre o tema do desafio. 
+Em prol de um melhor aproveitamento das habilidades de cada integrante, o time foi separado em duas frentes: frontend e backend, onde, na primeira sprint, o time de frontend ficou responsável pela confecção do protótipo, projeto frontend e integração de funcionalidades enquanto o time de backend ficou responsável pela criação dos microsserviços necessários e pesquisas sobre o tema do desafio. 
 - O acompanhamento de atividades, de responsabilidade da Scrum Master, se encontra na imagem adiante, que contém o gráfico Burndown gerado pela equipe (onde o eixo X são os dias trabalhados na sprint e os valores do eixo Y representam as entregas e esforços realizados com o passar do tempo), incluindo as atividades desenvolvidas e seus responsáveis.
     
 <div align="center">
-
-> em breve
-
-</div>
     
-→ [Voltar ao topo](#topo)
+![Burndown Chart](https://user-images.githubusercontent.com/69374340/163472803-4912e725-f05c-4cdc-84bc-29ae2953f401.png)
+</div>
     
 <span id="links">
     
