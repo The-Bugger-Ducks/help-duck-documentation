@@ -21,8 +21,8 @@ A partir da apresentação do desafio enfrentado pela empresa parceira, a soluç
 Cada entrega foi realizada a partir da criação de uma **tag** em cada repositório (web e todos os microsserviços), além da criação de uma branch neste repositório com um relatório completo de tudo o que foi desenvolvido naquela sprint. Observe a relação a seguir:
 | Sprint | Previsão | Status | Histórico |
 |:--:|:----------:|:----------------|:-------------------------------------------------:|
-| 01 | 14/04/2022 | 🚧 Em andamento | -- |
-| 02 | 15/05/2022 | 🛑 Não iniciada | -- |
+| 01 | 14/04/2022 | ✔️ Concluída    | [ver relatório](https://github.com/The-Bugger-Ducks/help-duck-documentation/blob/sprint-01/README.md) |
+| 02 | 15/05/2022 | 🚧 Em andamento | -- |
 | 03 | 05/06/2022 | 🛑 Não iniciada | -- |
 
 → [Voltar ao topo](#topo)
@@ -52,7 +52,7 @@ Como parte do planejamento do projeto foram criados wireframes e mockups para id
     
 </div>
     
-Por conta da arquitetura orientada a microsserviços adotada neste projeto, houve a descentralização e isolamento de responsabilidades entre o front-end e o back-end, garantindo que algumas funcionalidades fossem integradas a partir do consumo das APIs disponíveis, onde a documentação desses microsserviços, um dos requisitos não funcionais desejados para o projeto, foi praticada durante todo o desenvolvimento através de ferramentas como o Swagger, mapeando todos os endpoints de cada API criada e relacionada ao projeto, enquanto que para documentação de tarefas front-end optamos por um guia em PDF exemplificando os fluxos de dados (o consumo propriamente dito), além de outras documentações do projeto como um todo, tais como diagramas de classe e modelagem de banco de dados.
+Por conta da arquitetura orientada a microsserviços adotada neste projeto, houve a descentralização e isolamento de responsabilidades entre o front-end e o back-end, garantindo que algumas funcionalidades fossem integradas a partir do consumo das APIs disponíveis, onde a documentação desses microsserviços, um dos requisitos não funcionais desejados para o projeto, foi praticada durante todo o desenvolvimento através de ferramentas como o Swagger ou readmes dos repositórios, mapeando todos os endpoints de cada API criada e relacionada ao projeto, enquanto que para documentação de tarefas front-end optamos por um guia em PDF exemplificando os fluxos de dados (o consumo propriamente dito), além de outras documentações do projeto como um todo, tais como diagramas de classe e modelagem de banco de dados.
     
 > Link para as documentações em breve
     
