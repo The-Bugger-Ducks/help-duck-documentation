@@ -46,6 +46,18 @@ Este requisito se trata do cadastro e login de usuários, respeitando a regra de
 - para **usuários do tipo suporte** a tela inicial se configura na listagem de chamados abertos por qualquer usuário e ao acessar os detalhes de um chamado é pssível reservá-lo, adicionar algum comentário ou marcá-lo como concluído;
 - já para **usuários do tipo administrador** tem a apresentação da listagem de todos os usuários em sua página inicial, com a opção de cadastrar novos usuários.
 
+<details>
+   <summary>Diagrama de classes</summary>
+   <h4>Diagrama de classes mapeado do frontend</h4>
+   <img src="https://user-images.githubusercontent.com/69374340/163506461-be837b99-d7ce-4c3c-86ff-c1d276fec529.png">
+   <h4>Diagrama de classes mapeado do microsserviço de usuários</h4>
+   <img src="https://user-images.githubusercontent.com/69374340/163507227-c7373703-3fd4-456f-8670-2e25cb177199.png">
+   <h4>Diagrama de classes mapeado do microsserviço de autenticação</h4>
+   <img src="https://user-images.githubusercontent.com/69374340/163507603-d0c3400d-6c1c-422b-b923-38a5e8c11304.png">
+   <h4>Diagrama de classes mapeado do microsserviço de chamados</h4>
+   <img src="https://user-images.githubusercontent.com/69374340/163507346-aa436b7d-1143-4b42-845b-01bb94202ff3.png">
+</details>
+    
 → [Voltar ao topo](#topo)
 
 <span id="metricas">
