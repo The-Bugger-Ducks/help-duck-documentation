@@ -22,8 +22,8 @@ Cada entrega foi realizada a partir da criação de uma **tag** em cada reposit�
 | Sprint | Previsão | Status | Histórico |
 |:--:|:----------:|:----------------|:-------------------------------------------------:|
 | 01 | 14/04/2022 | ✔️ Concluída    | [ver relatório](https://github.com/The-Bugger-Ducks/help-duck-documentation/blob/sprint-01/README.md) |
-| 02 | 15/05/2022 | 🚧 Em andamento | -- |
-| 03 | 05/06/2022 | 🛑 Não iniciada | -- |
+| 02 | 15/05/2022 | ✔️ Concluída    | [ver relatório](https://github.com/The-Bugger-Ducks/help-duck-documentation/blob/sprint-02/README.md) |
+| 03 | 05/06/2022 | 🚧 Em andamento | -- |
 
 → [Voltar ao topo](#topo)
 
