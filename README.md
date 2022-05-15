@@ -32,11 +32,11 @@ Cada entrega foi realizada a partir da criação de uma **tag** em cada reposit�
 ## :dart: Backlogs & User Stories
     
 <div align="center">
-        
-![product_backlog](https://user-images.githubusercontent.com/69374340/162626658-5835065a-8568-4f87-adb1-814e15e2295a.png)
-![sprint_backlog](https://user-images.githubusercontent.com/69374340/162626648-5f01c714-5307-4365-9862-ba04992136a0.png)
-![user_stories](https://user-images.githubusercontent.com/69374340/162625984-4d5db21c-ba4c-41e5-a4e9-6e54e7f15010.png)
     
+![product_backlog](https://user-images.githubusercontent.com/69374340/168486240-a10b85e6-44fd-4b56-a4a0-0f36338eb8d4.png)
+![sprint_backlog](https://user-images.githubusercontent.com/69374340/168486255-5a0d7255-1659-4374-90f3-4dca9534e9aa.png)
+![user_stories](https://user-images.githubusercontent.com/69374340/168486268-2d93ce1d-16b9-4413-8b44-bd651921e756.png)
+
 </div>
   
 → [Voltar ao topo](#topo)
@@ -64,19 +64,19 @@ Por conta da arquitetura orientada a microsserviços adotada neste projeto, houv
 
 As seguintes ferramentas, linguagens, bibliotecas e tecnologias foram usadas na construção do projeto:
 
-<img src="https://img.shields.io/badge/Figma-20232A?style=for-the-badge&logo=figma&logoColor=DC143C" alt="Figma" /> 
-<img src="https://img.shields.io/badge/TypeScript-20232A?style=for-the-badge&logo=typescript&logoColor=007ACC" alt="Typescript" />
-<img src="https://img.shields.io/badge/HTML5-20232A?style=for-the-badge&logo=html5&logoColor=E34F26" alt="HTML" /> 
-<img src="https://img.shields.io/badge/CSS3-20232A?style=for-the-badge&logo=css3&logoColor=1572B6" alt="CSS" /> 	
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" /> 
-<img src="https://img.shields.io/badge/Node.js-20232A?style=for-the-badge&logo=nodedotjs&logoColor=339933" alt="Node" />  
-<img src="https://img.shields.io/badge/Java-20232A?style=for-the-badge&logo=java&logoColor=DC143C" alt="Java" />
-<img src="https://img.shields.io/badge/MongoDB-20232A?style=for-the-badge&logo=mongodb&logoColor=4EA94B" alt="MongoDB" /><br>
-<img src="https://img.shields.io/badge/VS_Code-20232A?style=for-the-badge&logo=visual%20studio%20code&logoColor=0078D4" alt="VS Code" /> 
-<img src="https://img.shields.io/badge/Discord-20232A?style=for-the-badge&logo=discord&logoColor=7289DA" alt="Discord" /> 
-<img src="https://img.shields.io/badge/GitHub-20232A?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /> 
-<img src="https://img.shields.io/badge/Google%20Sheets-20232A?style=for-the-badge&logo=google-sheets&logoColor=34A853" alt="Google Sheets" /> 
-<img src="https://img.shields.io/badge/Google%20Docs-20232A?style=for-the-badge&logo=google-sheets&logoColor=0D96F6" alt="Google Docs" />
+<img src="https://img.shields.io/badge/Figma-FFFFFF?style=for-the-badge&logo=figma&logoColor=DC143C" alt="Figma" /> 
+<img src="https://img.shields.io/badge/TypeScript-FFFFFF?style=for-the-badge&logo=typescript&logoColor=007ACC" alt="Typescript" />
+<img src="https://img.shields.io/badge/HTML5-FFFFFF?style=for-the-badge&logo=html5&logoColor=E34F26" alt="HTML" /> 
+<img src="https://img.shields.io/badge/CSS3-FFFFFF?style=for-the-badge&logo=css3&logoColor=1572B6" alt="CSS" /> 	
+<img src="https://img.shields.io/badge/React-FFFFFF?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" /> 
+<img src="https://img.shields.io/badge/Node.js-FFFFFF?style=for-the-badge&logo=nodedotjs&logoColor=339933" alt="Node" />  
+<img src="https://img.shields.io/badge/Java-FFFFFF?style=for-the-badge&logo=java&logoColor=DC143C" alt="Java" />
+<img src="https://img.shields.io/badge/MongoDB-FFFFFF?style=for-the-badge&logo=mongodb&logoColor=4EA94B" alt="MongoDB" /><br>
+<img src="https://img.shields.io/badge/VS_Code-FFFFFF?style=for-the-badge&logo=visual%20studio%20code&logoColor=0078D4" alt="VS Code" /> 
+<img src="https://img.shields.io/badge/Discord-FFFFFF?style=for-the-badge&logo=discord&logoColor=7289DA" alt="Discord" /> 
+<img src="https://img.shields.io/badge/GitHub-FFFFFF?style=for-the-badge&logo=github&logoColor=20232A" alt="GitHub" /> 
+<img src="https://img.shields.io/badge/Google%20Sheets-FFFFFF?style=for-the-badge&logo=google-sheets&logoColor=34A853" alt="Google Sheets" /> 
+<img src="https://img.shields.io/badge/Google%20Docs-FFFFFF?style=for-the-badge&logo=google-sheets&logoColor=0D96F6" alt="Google Docs" />
     
 → [Voltar ao topo](#topo)
 
