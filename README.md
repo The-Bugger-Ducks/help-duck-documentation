@@ -116,7 +116,7 @@ O acompanhamento de atividades, de responsabilidade da Scrum Master, se encontra
 - Site do projeto: [https://help-duck.netlify.app/](https://help-duck.netlify.app/) (usuário exemplo - email: `user@gmail.com`, senha: `1357`)
 - Tags foram geradas nos seguintes repositórios para simbolizar o fim da 2ª sprint:
   - Repositório do site: [clique aqui para acessar "help-duck-web"](https://github.com/The-Bugger-Ducks/help-duck-web)
-  - Microsserviço de usuários e equipamentos: [clique aqui para acessar "help-duck-register"](ttps://github.com/The-Bugger-Ducks/help-duck-register)
+  - Microsserviço de usuários e equipamentos: [clique aqui para acessar "help-duck-register"](https://github.com/The-Bugger-Ducks/help-duck-register)
   - Microsserviço de chamados: [clique aqui para acessar "help-duck-tickets"](https://github.com/The-Bugger-Ducks/help-duck-tickets)
 
 → [Voltar ao topo](#topo)
