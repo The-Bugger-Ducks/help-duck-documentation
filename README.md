@@ -1,104 +1,110 @@
-<div align="center">
-    
-![banner](https://user-images.githubusercontent.com/69374340/172057240-dd4c637d-57ba-455c-b593-09ca86bb07a2.png)
-</div>
-<br id="topo">
+<span id="topo">
+
+<h1 align="center">Sprint 3: 16/05/2022 a 05/06/2022</h1>
+
 <p align="center">
-    <a href="#sobre">Sobre</a>  |  
-    <a href="#backlogs">Backlogs & User Stories</a>  |  
-    <a href="#prototipo">Protótipo & Documentação</a>  |  
-    <a href="#tecnologias">Tecnologias</a>  |  
-    <a href="#equipe">Equipe</a>
+    <a href="#objetivos">Objetivos da sprint</a> &nbsp |&nbsp &nbsp
+    <a href="#entregas">Entregas</a> &nbsp |&nbsp &nbsp
+    <a href="#metricas">Métricas do time</a> &nbsp |&nbsp &nbsp
+    <a href="#links">Links úteis</a>
 </p>
-   
-<span id="sobre">
 
-## :bookmark_tabs: Sobre o projeto
-A partir da apresentação do desafio enfrentado pela empresa parceira, a solução desenvolvida se configura em um site para Help Desk, que consiste em um sistema com 3 frentes: a do **usuário comum**, que pode abrir um chamado e acompanhar seu ciclo de vida, mas também consultar um centro de soluções para resolver seu problema sem o auxílio de um suporte; a do **usuário suporte**, que atende os chamados abertos mas também pode consultar o centro de soluções; e a do **usuário administrador**, cujo tem a função de cadastrar os outros usuários e equipamentos, além de poder visualizar relatórios relacionado aos chamados, observando padrões e métricas de seu interesse.
+Na última sprint os esforços da equipe se concentraram na aplicação da análise de causa raíz e em refinamentos de detalhes de interface, permitindo assim que o sistema fosse agradável e intuitivo e, ao mesmo tempo, atendesse aos desejos do usuário da melhor forma imaginada pelo time.
 
-> _Projeto baseado na metodologia ágil SCRUM, procurando desenvolver a Proatividade, Autonomia, Colaboração e Entrega de Resultados dos estudantes envolvidos_
-
-:pushpin: Status do Projeto: **Concluído** :heavy_check_mark:
-
-### 🏁 Entregas de Sprints
-Cada entrega foi realizada a partir da criação de uma **tag** em cada repositório (web e todos os microsserviços), além da criação de uma branch neste repositório com um relatório completo de tudo o que foi desenvolvido naquela sprint. Observe a relação a seguir:
-| Sprint | Previsão | Status | Histórico |
-|:--:|:----------:|:----------------|:-------------------------------------------------:|
-| 01 | 14/04/2022 | ✔️ Concluída    | [ver relatório](https://github.com/The-Bugger-Ducks/help-duck-documentation/blob/sprint-01/README.md) |
-| 02 | 15/05/2022 | ✔️ Concluída    | [ver relatório](https://github.com/The-Bugger-Ducks/help-duck-documentation/blob/sprint-02/README.md) |
-| 03 | 05/06/2022 | ✔️ Concluída    | [ver relatório](https://github.com/The-Bugger-Ducks/help-duck-documentation/blob/sprint-03/README.md) |
-
-### :clapper: Apresentação Final
-> em breve ...
+<span id="objetivos">
     
-→ [Voltar ao topo](#topo)
+## :dart: Objetivos da Sprint
+Os requisitos (tanto do cliente como da instituição de ensino) abrangidos por essa sprint são:
+- **RF 04:** Análise de Causa Raíz
+- **RF 14:** Avaliação de solução do chamado
+- **RNF 08:** Documentação
+- **EXTRA:** Relatórios
 
-<span id="backlogs">
+<span id="entregas">
+        
+## :heavy_check_mark: Entregas
 
-## :dart: Backlogs & User Stories
-    
+### RF 04: Análise de Causa Raíz
+
+A análise de causa raíz foi implementada utilizando o esquema de "possíveis soluções para certos tipos de problema", que consiste em categorizar os chamados por tipos de problemas, e, após seu fechamento, seria cadastrado sua solução, assim, chamados com o mesmo tipo de problema terão ao seu dispor essas soluções cadastradas de outros chamados recorrentes, aliviando a carga de retrabalho do suporte, como o demonstrado abaixo:
+
 <div align="center">
-    
-![product backlog](https://user-images.githubusercontent.com/69374340/172057734-320d9e43-19e9-409a-8f2d-7d159a1aaa9a.png)
-![sprint backlog](https://user-images.githubusercontent.com/69374340/172057787-dcc1ecce-1b08-464b-850e-7019dc050056.png)
-![user stories](https://user-images.githubusercontent.com/69374340/172057949-daade83b-8fec-4acc-a3cf-c4a26a3d3162.png)
+    <img src="..." alt="Demonstração da análise de causa raíz">
 </div>
-  
+
+Já em questão de auxiliar na redução do retrabalho por parte dos usuários comuns, foi desenvolvido uma área denominada "Centro de Soluções", a qual permite usuários comuns e suportes pesquisarem por uma palavra chave ou expressão e obterem todos os resultados a cerca desta busca, seja por título do problema, título da solução ou descrição da mesma, como o exemplo a seguir:
+
+<div align="center">
+    <img src="..." alt="Demonstração do centro de soluções">
+</div>
+
+---
+
+### RF 14: Avaliação de solução do chamado
+
+Como um bônus, inspirado em outros sites do ramo de Help Desk e fóruns, foi implementado um mecanismo para avaliação da solução do chamado, sendo contabilizado os votos para "este conteúdo foi útil para mim" ou "este conteúdo não foi útil para mim". Tal ferramenta pode ser observada neste demonstrativo:
+
+<div align="center">
+    <img src="..." alt="GIF demonstrativo da avaliação da solução">
+</div>
+
+---
+
+### RNF 08: Documentação
+
+Este requisito não funcional do sistema requer a confecção de uma documentação do software, além da disponibilização de um manual de utilização do sistema para os diversos usuários. Tais documentações podem ser acessadas pelos links a seguir:
+
+> **Documentação geral:** ...
+> **Manual do usuário:** ...
+
+---
+
+### EXTRA: Relatórios
+
+A partir de toda a coleta de dados realizada pelo sistema (tais como métricas de usuários, em relação a quantidade e cargos, além da quantidade de chamados em cada estágio do ciclo de vida ou quantos problemas semelhantes foram relatados), foi decidido trazer a visualização de algumas dessas estatísticas para o administrador, onde a interface a qual ele acessa para analisar estes dados é a seguinte:
+
+<div align="center">
+    <img src="..." alt="GIF demonstrativo dos relatórios">
+</div>
+
+---
+
 → [Voltar ao topo](#topo)
 
-<span id="prototipo">
+<span id="metricas">
 
-## :desktop_computer: Protótipo & Documentação
-Como parte do planejamento do projeto foram criados wireframes e mockups para idealização do layout, que, ao ser validado pelo cliente, foram aplicados em um protótipo construído em React, possibilitando a interação do usuário com a interface (vide [entrega da primeira sprint](https://github.com/The-Bugger-Ducks/help-duck-documentation/blob/sprint-01/README.md)).
+## :chart_with_upwards_trend: Métricas do time
+
+O acompanhamento de atividades, de responsabilidade da Scrum Master, se encontra na imagem adiante, que contém o gráfico Burndown gerado pela equipe (onde o eixo X são os dias trabalhados na sprint e os valores do eixo Y representam as entregas e esforços realizados com o passar do tempo), incluindo as atividades desenvolvidas e seus responsáveis.
+
+<div align="center">
+    <img src="..." alt="Gráfico de Burndown da sprint 03">
+</div>  
     
-Por conta da arquitetura orientada a microsserviços adotada neste projeto, houve a descentralização e isolamento de responsabilidades entre o front-end e o back-end, garantindo que as funcionalidades fossem integradas a partir do consumo das APIs disponíveis, onde a documentação desses microsserviços, um dos requisitos não funcionais desejados para o projeto, foi praticada durante todo o desenvolvimento através de ferramentas como o Swagger ou readmes dos repositórios, mapeando todos os endpoints de cada API criada relacionada ao projeto, enquanto que para outras documentações do projeto como um todo, tais como os fluxos de dados, diagramas de classe e de uso, modelagem de banco de dados e arquiteturas foram condensadas em um guia PDF.
-    
-> 🔗 **Links gerais** <br>
-> - Documentação do software: ...
-> - Documentações das APIs:
->    - Microsserviço de usuários e equipamentos: https://help-duck-register.herokuapp.com/swagger-ui/index.html#/
->    - Microsserviço de chamados: https://help-duck-ticket.herokuapp.com/swagger-ui/index.html#/
->    - Microsserviço de problemas e soluções: https://help-duck-solution-center.herokuapp.com/swagger-ui/index.html#/
->    - Microsserviço de relatórios: ...
-    
+<details>
+   <summary>Clique aqui para ver as tarefas realizadas na sprint</summary>
+   <img src="...">
+</details>
+
 → [Voltar ao topo](#topo)
 
-<span id="tecnologias">
-
-## 🛠️ Tecnologias
-
-As seguintes ferramentas, linguagens, bibliotecas e tecnologias foram usadas na construção do projeto:
-
-<img src="https://img.shields.io/badge/Figma-CED4DA?style=for-the-badge&logo=figma&logoColor=DC143C" alt="Figma" /> 
-<img src="https://img.shields.io/badge/TypeScript-CED4DA?style=for-the-badge&logo=typescript&logoColor=007ACC" alt="Typescript" />
-<img src="https://img.shields.io/badge/HTML5-CED4DA?style=for-the-badge&logo=html5&logoColor=E34F26" alt="HTML" /> 
-<img src="https://img.shields.io/badge/CSS3-CED4DA?style=for-the-badge&logo=css3&logoColor=1572B6" alt="CSS" /> 	
-<img src="https://img.shields.io/badge/React-CED4DA?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" /> 
-<img src="https://img.shields.io/badge/Node.js-CED4DA?style=for-the-badge&logo=nodedotjs&logoColor=339933" alt="Node" />  
-<img src="https://img.shields.io/badge/Java-CED4DA?style=for-the-badge&logo=java&logoColor=DC143C" alt="Java" />
-<img src="https://img.shields.io/badge/MongoDB-CED4DA?style=for-the-badge&logo=mongodb&logoColor=4EA94B" alt="MongoDB" /><br>
-<img src="https://img.shields.io/badge/Python-CED4DA?style=for-the-badge&logo=python&logoColor=yellow" alt="Python" />
-<img src="https://img.shields.io/badge/VS_Code-CED4DA?style=for-the-badge&logo=visual%20studio%20code&logoColor=0078D4" alt="VS Code" /> 
-<img src="https://img.shields.io/badge/Discord-CED4DA?style=for-the-badge&logo=discord&logoColor=7289DA" alt="Discord" /> 
-<img src="https://img.shields.io/badge/GitHub-CED4DA?style=for-the-badge&logo=github&logoColor=20232A" alt="GitHub" /> 
-<img src="https://img.shields.io/badge/Google%20Sheets-CED4DA?style=for-the-badge&logo=google-sheets&logoColor=34A853" alt="Google Sheets" /> 
-<img src="https://img.shields.io/badge/Google%20Docs-CED4DA?style=for-the-badge&logo=google-sheets&logoColor=0D96F6" alt="Google Docs" />
+<span id="links">
     
-→ [Voltar ao topo](#topo)
+## :link: Links úteis
 
-<span id="equipe">
+- Site do projeto: [https://help-duck.netlify.app/](https://help-duck.netlify.app/), para acessar todas as visões do projeto, utilize os três tipos de perfil, exemplemplificados na tabela a seguir:
 
-## :busts_in_silhouette: Equipe
+|             Usuário comum              |              Usuário suporte              |          Usuário administrador          |
+| :------------------------------------: | :---------------------------------------: | :-------------------------------------: |
+| email: `user@gmail.com`, senha: `1111` | email: `support@gmail.com`, senha: `2222` | email: `admin@gmail.com`, senha: `3333` |
 
-|    Função     | Nome                                  |                                                                                                                                                      LinkedIn & GitHub                                                                                                                                                      |
-| :-----------: | :------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| Product Owner | João Marcos Oliveira Santos           |     [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/joaomarcosoliveiraa) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/JoaoM-py)              |
-| Scrum Master  | Maria Gabriela Garcia dos Santos Reis |      [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/mariagabrielareis/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/MariaGabrielaReis)     |
-|   Dev Team    | Antônio Alexandre R. Nepomuceno               |         [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/antonio-nepomuceno-04943720a/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/Nepoun)        |
-|   Dev Team    | Caio Vitor Dias                   |         [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/caio-vitor-c1/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/CaioVitorDias1)        |
-|   Dev Team    | Gabriel Camargo Leite                 |   [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-camargo-915452196/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/GabrielCamargoL)   |
-|   Dev Team    | Giovana Thaís de Oliveira Silva       |           [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/gioliveirass) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/gioliveirass)          |
-|   Dev Team    | Otávio Ferraroni Gonçalves Pane       |        [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/otavioferraronigpane/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/OtavioPane)            |
-|   Dev Team    | Thiago Henrique Ferreira              | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/thiago-henrique-ferreira-2499a41a8/) [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/ThHenrique) |
+> **OBS:** Como os serviços em nuvem utilizados para o armazenamento dos respositórios backend são gratuitos, existe o mecanismo de inatividade do serviço, assim, quando acessado pela primeira vez o sistema pode levar algum tempo para acessar seus recursos. Após este primeiro contato, outras requisições são processadas como o de costume.
+
+- Tags foram geradas nos seguintes repositórios para simbolizar o fim da 3ª sprint:
+  - Repositório do site: [clique aqui para acessar "help-duck-web"](https://github.com/The-Bugger-Ducks/help-duck-web)
+  - Microsserviço de usuários e equipamentos: [clique aqui para acessar "help-duck-register"](https://github.com/The-Bugger-Ducks/help-duck-register)
+  - Microsserviço de chamados: [clique aqui para acessar "help-duck-tickets"](https://github.com/The-Bugger-Ducks/help-duck-tickets)
+  - Microsserviço de problemas e soluções: [clique aqui para acessar "help-duck-solution-center"](https://github.com/The-Bugger-Ducks/help-duck-solution-center)
+  - Microsserviço de relatórios: [clique aqui para acessar "help-duck-dashboard"](https://github.com/The-Bugger-Ducks/help-duck-dashboard)
 
 → [Voltar ao topo](#topo)
