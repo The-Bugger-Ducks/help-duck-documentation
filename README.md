@@ -54,8 +54,8 @@ Como um bônus, inspirado em outros sites do ramo de Help Desk e fóruns, foi im
 
 Este requisito não funcional do sistema requer a confecção de uma documentação do software, além da disponibilização de um manual de utilização do sistema para os diversos usuários. Tais documentações podem ser acessadas pelos links a seguir:
 
-- **Documentação geral:** [clique aqui para acessar](./documentacao_geral.pdf) <br>
-- **Manual do usuário:** [clique aqui para acessar](./manual_usuario.pdf)
+- **Documentação geral:** [clique aqui para acessar](https://github.com/The-Bugger-Ducks/help-duck-documentation/blob/main/documentacao_geral.pdf) <br>
+- **Manual do usuário:** [clique aqui para acessar](https://github.com/The-Bugger-Ducks/help-duck-documentation/blob/main/manual_usuario.pdf)
     
 ---
 
