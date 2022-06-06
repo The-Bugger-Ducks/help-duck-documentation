@@ -29,7 +29,25 @@ Cada entrega foi realizada a partir da criação de uma **tag** em cada reposit�
 | 03 | 05/06/2022 | ✔️ Concluída    | [ver relatório](https://github.com/The-Bugger-Ducks/help-duck-documentation/blob/sprint-03/README.md) |
 
 ### :clapper: Apresentação Final
-> em breve ...
+Confira a seguir uma demonstraão das funcionalidades para cada tipo de usuário do sistema:
+<details>
+   <summary>Usuário comum</summary>
+    <div align="center">
+        <img src="https://user-images.githubusercontent.com/69374340/172084663-1e8ae95b-0c84-493c-b4ab-5cfcda5a4eb3.gif">
+    </div>
+</details>
+<details>
+   <summary>Usuário suporte</summary>
+    <div align="center">
+        <img src="https://user-images.githubusercontent.com/69374340/172084712-de2d2905-dc65-41af-97e8-f980eff5f2d1.gif">
+    </div>
+</details>
+<details>
+   <summary>Usuário administrador</summary>
+    <div align="center">
+        <img src="./usuario_administrador.gif">
+    </div>
+</details>
     
 → [Voltar ao topo](#topo)
 
@@ -54,12 +72,12 @@ Como parte do planejamento do projeto foram criados wireframes e mockups para id
 Por conta da arquitetura orientada a microsserviços adotada neste projeto, houve a descentralização e isolamento de responsabilidades entre o front-end e o back-end, garantindo que as funcionalidades fossem integradas a partir do consumo das APIs disponíveis, onde a documentação desses microsserviços, um dos requisitos não funcionais desejados para o projeto, foi praticada durante todo o desenvolvimento através de ferramentas como o Swagger ou readmes dos repositórios, mapeando todos os endpoints de cada API criada relacionada ao projeto, enquanto que para outras documentações do projeto como um todo, tais como os fluxos de dados, diagramas de classe e de uso, modelagem de banco de dados e arquiteturas foram condensadas em um guia PDF.
     
 > 🔗 **Links gerais** <br>
-> - Documentação do software: ...
+> - Documentação do software: [clique aqui para acessar](./documentacao_geral.pdf)
+> - Manual do usuário: [clique aqui para acessar](./manual_usuario.pdf)
 > - Documentações das APIs:
 >    - Microsserviço de usuários e equipamentos: https://help-duck-register.herokuapp.com/swagger-ui/index.html#/
 >    - Microsserviço de chamados: https://help-duck-ticket.herokuapp.com/swagger-ui/index.html#/
 >    - Microsserviço de problemas e soluções: https://help-duck-solution-center.herokuapp.com/swagger-ui/index.html#/
->    - Microsserviço de relatórios: ...
     
 → [Voltar ao topo](#topo)
 
