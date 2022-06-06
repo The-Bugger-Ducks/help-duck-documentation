@@ -54,9 +54,9 @@ Como um bônus, inspirado em outros sites do ramo de Help Desk e fóruns, foi im
 
 Este requisito não funcional do sistema requer a confecção de uma documentação do software, além da disponibilização de um manual de utilização do sistema para os diversos usuários. Tais documentações podem ser acessadas pelos links a seguir:
 
-> **Documentação geral:** ... <br>
-> **Manual do usuário:** ...
-
+- **Documentação geral:** [clique aqui para acessar](./documentacao_geral.pdf) <br>
+- **Manual do usuário:** [clique aqui para acessar](./manual_usuario.pdf)
+    
 ---
 
 ### EXTRA: Relatórios
