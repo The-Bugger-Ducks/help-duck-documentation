@@ -29,13 +29,13 @@ Os requisitos (tanto do cliente como da instituição de ensino) abrangidos por 
 A análise de causa raíz foi implementada utilizando o esquema de "possíveis soluções para certos tipos de problema", que consiste em categorizar os chamados por tipos de problemas, e, após seu fechamento, seria cadastrado sua solução, assim, chamados com o mesmo tipo de problema terão ao seu dispor essas soluções cadastradas de outros chamados recorrentes, aliviando a carga de retrabalho do suporte, como o demonstrado abaixo:
 
 <div align="center">
-    <img src="..." alt="Demonstração da análise de causa raíz">
+    <img src="https://user-images.githubusercontent.com/69374340/172081029-eb1b07d3-0329-4dd2-9555-47cef3927551.gif" alt="Demonstração da análise de causa raíz">
 </div>
 
 Já em questão de auxiliar na redução do retrabalho por parte dos usuários comuns, foi desenvolvido uma área denominada "Centro de Soluções", a qual permite usuários comuns e suportes pesquisarem por uma palavra chave ou expressão e obterem todos os resultados a cerca desta busca, seja por título do problema, título da solução ou descrição da mesma, como o exemplo a seguir:
 
 <div align="center">
-    <img src="..." alt="Demonstração do centro de soluções">
+    <img src="https://user-images.githubusercontent.com/69374340/172081062-07d3481e-3134-4be0-9d8e-48ba198ecbad.gif" alt="Demonstração do centro de soluções">
 </div>
 
 ---
@@ -45,7 +45,7 @@ Já em questão de auxiliar na redução do retrabalho por parte dos usuários c
 Como um bônus, inspirado em outros sites do ramo de Help Desk e fóruns, foi implementado um mecanismo para avaliação da solução do chamado, sendo contabilizado os votos para "este conteúdo foi útil para mim" ou "este conteúdo não foi útil para mim". Tal ferramenta pode ser observada neste demonstrativo:
 
 <div align="center">
-    <img src="..." alt="GIF demonstrativo da avaliação da solução">
+    <img src="https://user-images.githubusercontent.com/69374340/172081087-91ce72f9-2d2b-4efb-90dc-54f593919b9c.gif" alt="GIF demonstrativo da avaliação da solução">
 </div>
 
 ---
@@ -64,7 +64,7 @@ Este requisito não funcional do sistema requer a confecção de uma documentaç
 A partir de toda a coleta de dados realizada pelo sistema (tais como métricas de usuários, em relação a quantidade e cargos, além da quantidade de chamados em cada estágio do ciclo de vida ou quantos problemas semelhantes foram relatados), foi decidido trazer a visualização de algumas dessas estatísticas para o administrador, onde a interface a qual ele acessa para analisar estes dados é a seguinte:
 
 <div align="center">
-    <img src="..." alt="GIF demonstrativo dos relatórios">
+    <img src="https://user-images.githubusercontent.com/69374340/172081104-b82f1a58-d0c8-4722-bee6-ea59430f88d3.gif" alt="GIF demonstrativo dos relatórios">
 </div>
 
 ---
@@ -78,8 +78,8 @@ A partir de toda a coleta de dados realizada pelo sistema (tais como métricas d
 O acompanhamento de atividades, de responsabilidade da Scrum Master, se encontra na imagem adiante, que contém o gráfico Burndown gerado pela equipe (onde o eixo X são os dias trabalhados na sprint e os valores do eixo Y representam as entregas e esforços realizados com o passar do tempo), incluindo as atividades desenvolvidas e seus responsáveis.
 
 <div align="center">
-    <img src="..." alt="Gráfico de Burndown da sprint 03">
-</div>  
+    <img width="400px" src="https://user-images.githubusercontent.com/69374340/172081153-1c256e87-1841-482a-bbb0-27dfbd936678.png" alt="Gráfico de Burndown da sprint 03">
+</div> 
     
 <details>
    <summary>Clique aqui para ver as tarefas realizadas na sprint</summary>
