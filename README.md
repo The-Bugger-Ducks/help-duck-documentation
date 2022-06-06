@@ -54,7 +54,7 @@ Como um bônus, inspirado em outros sites do ramo de Help Desk e fóruns, foi im
 
 Este requisito não funcional do sistema requer a confecção de uma documentação do software, além da disponibilização de um manual de utilização do sistema para os diversos usuários. Tais documentações podem ser acessadas pelos links a seguir:
 
-> **Documentação geral:** ...
+> **Documentação geral:** ... <br>
 > **Manual do usuário:** ...
 
 ---
@@ -83,7 +83,7 @@ O acompanhamento de atividades, de responsabilidade da Scrum Master, se encontra
     
 <details>
    <summary>Clique aqui para ver as tarefas realizadas na sprint</summary>
-   <img src="...">
+   <img src="https://user-images.githubusercontent.com/69374340/172081677-2ae07af0-7449-4a75-a413-432d3bc2242c.png">
 </details>
 
 → [Voltar ao topo](#topo)
@@ -93,18 +93,21 @@ O acompanhamento de atividades, de responsabilidade da Scrum Master, se encontra
 ## :link: Links úteis
 
 - Site do projeto: [https://help-duck.netlify.app/](https://help-duck.netlify.app/), para acessar todas as visões do projeto, utilize os três tipos de perfil, exemplemplificados na tabela a seguir:
-
+    
+<div align="center">
+    
 |             Usuário comum              |              Usuário suporte              |          Usuário administrador          |
 | :------------------------------------: | :---------------------------------------: | :-------------------------------------: |
-| email: `user@gmail.com`, senha: `1111` | email: `support@gmail.com`, senha: `2222` | email: `admin@gmail.com`, senha: `3333` |
-
+| email: `user@gmail.com`, senha: `1357` | email: `support@gmail.com`, senha: `1234` | email: `admin@gmail.com`, senha: `1234` |
+</div>
+    
 > **OBS:** Como os serviços em nuvem utilizados para o armazenamento dos respositórios backend são gratuitos, existe o mecanismo de inatividade do serviço, assim, quando acessado pela primeira vez o sistema pode levar algum tempo para acessar seus recursos. Após este primeiro contato, outras requisições são processadas como o de costume.
 
 - Tags foram geradas nos seguintes repositórios para simbolizar o fim da 3ª sprint:
-  - Repositório do site: [clique aqui para acessar "help-duck-web"](https://github.com/The-Bugger-Ducks/help-duck-web)
-  - Microsserviço de usuários e equipamentos: [clique aqui para acessar "help-duck-register"](https://github.com/The-Bugger-Ducks/help-duck-register)
-  - Microsserviço de chamados: [clique aqui para acessar "help-duck-tickets"](https://github.com/The-Bugger-Ducks/help-duck-tickets)
-  - Microsserviço de problemas e soluções: [clique aqui para acessar "help-duck-solution-center"](https://github.com/The-Bugger-Ducks/help-duck-solution-center)
-  - Microsserviço de relatórios: [clique aqui para acessar "help-duck-dashboard"](https://github.com/The-Bugger-Ducks/help-duck-dashboard)
+  - Repositório do site: [clique aqui para acessar "**help-duck-web**"](https://github.com/The-Bugger-Ducks/help-duck-web)
+  - Microsserviço de usuários e equipamentos: [clique aqui para acessar "**help-duck-register**"](https://github.com/The-Bugger-Ducks/help-duck-register)
+  - Microsserviço de chamados: [clique aqui para acessar "**help-duck-tickets**"](https://github.com/The-Bugger-Ducks/help-duck-tickets)
+  - Microsserviço de problemas e soluções: [clique aqui para acessar "**help-duck-solution-center**"](https://github.com/The-Bugger-Ducks/help-duck-solution-center)
+  - Microsserviço de relatórios: [clique aqui para acessar "**help-duck-dashboard**"](https://github.com/The-Bugger-Ducks/help-duck-dashboard)
 
 → [Voltar ao topo](#topo)
