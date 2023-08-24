@@ -13,3 +13,6 @@
 [submodule "Microsserviço (usuários) help-duck-register"]
 	path = Microsserviço (usuários) help-duck-register
 	url = https://github.com/The-Bugger-Ducks/help-duck-register
+[submodule "Microsserviço (autenticação) help-duck-auth"]
+	path = Microsserviço (autenticação) help-duck-auth
+	url = https://github.com/The-Bugger-Ducks/help-duck-authentication
