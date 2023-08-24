@@ -10,3 +10,6 @@
 [submodule "Microsserviço (chamados) help-duck-tickets"]
 	path = Microsserviço (chamados) help-duck-tickets
 	url = https://github.com/The-Bugger-Ducks/help-duck-tickets
+[submodule "Microsserviço (usuários) help-duck-register"]
+	path = Microsserviço (usuários) help-duck-register
+	url = https://github.com/The-Bugger-Ducks/help-duck-register
