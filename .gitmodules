@@ -1,0 +1,12 @@
+[submodule "Frontend help-duck-web"]
+	path = Frontend help-duck-web
+	url = https://github.com/The-Bugger-Ducks/help-duck-web
+[submodule "Microsserviço (relatórios) help-duck-dashboard"]
+	path = Microsserviço (relatórios) help-duck-dashboard
+	url = https://github.com/The-Bugger-Ducks/help-duck-dashboard
+[submodule "Microsserviço (centro de soluções) help-duck-solution-center"]
+	path = Microsserviço (centro de soluções) help-duck-solution-center
+	url = https://github.com/The-Bugger-Ducks/help-duck-solution-center
+[submodule "Microsserviço (chamados) help-duck-tickets"]
+	path = Microsserviço (chamados) help-duck-tickets
+	url = https://github.com/The-Bugger-Ducks/help-duck-tickets
