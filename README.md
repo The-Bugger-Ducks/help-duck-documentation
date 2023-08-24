@@ -74,11 +74,19 @@ Por conta da arquitetura orientada a microsserviços adotada neste projeto, houv
 > 🔗 **Links gerais** <br>
 > - Documentação do software: [clique aqui para acessar](./documentacao_geral.pdf)
 > - Manual do usuário: [clique aqui para acessar](./manual_usuario.pdf)
+> - Links para os repositórios criados:
+>    - **Frontend:** [acessar help-duck-web](https://github.com/The-Bugger-Ducks/help-duck-web)
+>    - **Microsserviços (backend):**
+>       - **Usuários e equipamentos:** [acessar help-duck-register](https://github.com/The-Bugger-Ducks/help-duck-register)
+>       - **Autenticação:** [acessar help-duck-authentication](https://github.com/The-Bugger-Ducks/help-duck-authentication)
+>       - **Relatórios:** [acessar help-duck-dashboard](https://github.com/The-Bugger-Ducks/help-duck-dashboard)
+>       - **Centro de soluções:** [acessar help-duck-solution-center](https://github.com/The-Bugger-Ducks/help-duck-solution-center)
+>       - **Controle de chamados:** [acessar help-duck-tickets](https://github.com/The-Bugger-Ducks/help-duck-tickets)
 > - Documentações das APIs:
->    - Microsserviço de usuários e equipamentos: https://help-duck-register.herokuapp.com/swagger-ui/index.html#/
->    - Microsserviço de chamados: https://help-duck-ticket.herokuapp.com/swagger-ui/index.html#/
->    - Microsserviço de problemas e soluções: https://help-duck-solution-center.herokuapp.com/swagger-ui/index.html#/
-    
+>    - **Microsserviço de usuários e equipamentos:** [acessar Swagger](https://help-duck-register.herokuapp.com/swagger-ui/index.html#/)
+>    - **Microsserviço de controle de chamados:** [acessar Swagger](https://help-duck-ticket.herokuapp.com/swagger-ui/index.html#/)
+>    - **Microsserviço de problemas e soluções:** [acessar Swagger](https://help-duck-solution-center.herokuapp.com/swagger-ui/index.html#/)
+
 → [Voltar ao topo](#topo)
 
 <span id="tecnologias">
